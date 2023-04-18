@@ -36,8 +36,8 @@ let menu = {
   
   };
 
-  function toStringHechoPorMiPorqueNoMeSale(obj){ //hago este "toString" para los alerts porque he estado dando vueltas al toString normal y no comprendo su funcionamiento
-  let toStringpocho = "MENÚ:\n\n"
+  function toStringHechoPorMiPorqueNoMeSale(obj){ //hago este "toString" para los alerts porque he estado dando vueltas al toString normal y no comprendo su funcionamiento... echo de menos Java
+    let toStringpocho = "MENÚ:\n\n"
     for (let key in obj) {
         toStringpocho+=key+": "+obj[key]+"\n";
   }
@@ -52,7 +52,7 @@ let menu = {
 
     for (let key in obj) //hago el for in para ver las propiedades del objeto
         
-        if (typeof obj[key]==="number") { //si el tipo de la propiedad es "number", entra en el bucle
+        if (typeof obj[key]=="number") { //si el tipo de la propiedad es "number", entra en el bucle
 
         obj[key]*=2.5; //multiplico el valor de la propiedad por 2.5
 
