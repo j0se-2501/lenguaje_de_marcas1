@@ -1,0 +1,69 @@
+*{
+    --bg-blue: #1142e6;
+    --bg-light-blue: #7dd3fc;
+    --bg-red: #ff0000;
+    --bg-green: #00ff00;
+    --bg-yellow: #ffff00;
+    --bg-gray: #808080;
+    --bg-black: #000000;
+    --bg-white: #ffffff;
+    --bg-pink: #ff69b4;
+    --bg-violet: #8a2be2;
+    --bg-purple: #800080;
+    --bg-cyan: #00ffff;
+    --bg-turqoise: #40e0d0;
+  }
+  
+
+  .bg-blue {
+    background-color: var(--bg-blue);
+  }
+  
+  .bg-light-blue {
+    background-color: var(--bg-light-blue);
+  }
+  
+  .bg-red {
+    background-color: var(--bg-red);
+  }
+  
+  .bg-green {
+    background-color: var(--bg-green);
+  }
+  
+  .bg-yellow {
+    background-color: var(--bg-yellow);
+  }
+  
+  .bg-gray {
+    background-color: var(--bg-gray);
+  }
+  
+  .bg-black {
+    background-color: var(--bg-black);
+  }
+  
+  .bg-white {
+    background-color: var(--bg-white);
+  }
+  
+  .bg-pink {
+    background-color: var(--bg-pink);
+  }
+  
+  .bg-violet {
+    background-color: var(--bg-violet);
+  }
+  
+  .bg-purple {
+    background-color: var(--bg-purple);
+  }
+  
+  .bg-cyan {
+    background-color: var(--bg-cyan);
+  }
+  
+  .bg-turqoise {
+    background-color: var(--bg-turqoise);
+  }
+  
